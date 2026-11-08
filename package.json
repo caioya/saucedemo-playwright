@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright test that checks the Sauce Demo page title.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
